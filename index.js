@@ -44,18 +44,18 @@ app.get("/mainScreen/", function(req, res) {
 // var socket = io.connect('http://localhost');
 
 
-socket.on('connection', function (socket) {
+socketIo.on('connection', function (socket) {
     console.log("Client connected")
 })
 
-socket.on('disconnect', function(socket) {
+socketIo.on('disconnect', function(socket) {
     console.log("Disconnect");
 })
 
-socket.on("LoginSuccess", function(socket){
+socketIo.on("LoginSuccess", function(socket){
     window.href.location = '/mainScreen/mainPage.html';
 })
 
-socket.on('LoginFail', () => {
+socketIo.on('LoginFail', () => {
     alert("Username or password is incorrect!");
 })
