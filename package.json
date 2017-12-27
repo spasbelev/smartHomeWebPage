@@ -14,15 +14,12 @@
     "express-force-ssl": "^0.3.2",
     "http-proxy": "^1.16.2",
     "node-sass": "^4.7.2",
-    "pem": "^1.12.3",
-    "pug": "^2.0.0-rc.4",
+    "openssl-self-signed-certificate": "^1.1.6",
     "socket.io": "^2.0.4",
-    "sqlite3": "^3.1.13",
     "websocket": "^1.0.25"
   },
   "devDependencies": {
     "body-parser": "^1.18.2",
-    "gulp": "^3.9.1",
-    "openssl-self-signed-certificate": "^1.1.6"
+    "gulp": "^3.9.1"
   }
 }

@@ -5,7 +5,6 @@ const app = express();
 // const getCachedSensorReadings = require('./cache_sensor_data');
 // const databaseOperations = require('./database-operations');
 const https = require('https');
-var socketIo = require('socket.io');
 // const {subscribe, unsubscribe} = require('./notifier');
 // const loginValidate = require("./login/loginValidate");
 
@@ -22,6 +21,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 var bodyParser = require('body-parser');
 var fs = require('fs');
+var socketIo = require('socket.io')(httpsServer);
 
 app.use(bodyParser.json());
 
