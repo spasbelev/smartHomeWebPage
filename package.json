@@ -1,0 +1,28 @@
+{
+  "name": "smartHomeWebPage",
+  "version": "1.0.0",
+  "description": "Web page for the smart home server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "spasbelev",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "express": "^4.16.2",
+    "express-force-ssl": "^0.3.2",
+    "http-proxy": "^1.16.2",
+    "node-sass": "^4.7.2",
+    "pem": "^1.12.3",
+    "pug": "^2.0.0-rc.4",
+    "socket.io": "^2.0.4",
+    "sqlite3": "^3.1.13",
+    "websocket": "^1.0.25"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "gulp": "^3.9.1",
+    "openssl-self-signed-certificate": "^1.1.6"
+  }
+}
