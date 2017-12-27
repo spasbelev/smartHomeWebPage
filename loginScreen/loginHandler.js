@@ -6,4 +6,5 @@ function sendLoginData() {
     var password = document.getElementById("userPass").value;
 
     socketio.emit("LoginCredentials", {username, password});
+    
 }
